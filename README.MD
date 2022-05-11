@@ -1,4 +1,10 @@
-**Atividade prática do projeto:**
+**Aluno:** Joanes Cavalcanti de Araújo 
+
+**Prof:** Lucy
+
+**Turma:** Back-End
+<br/><br/><br/>
+## Atividade prática do projeto:
 
 Escreva um programa em JavaScript no Node.js que ajuda o INPE, que possui um 
 controle histórico das condições meteorológicas de um ano, a organizar 
