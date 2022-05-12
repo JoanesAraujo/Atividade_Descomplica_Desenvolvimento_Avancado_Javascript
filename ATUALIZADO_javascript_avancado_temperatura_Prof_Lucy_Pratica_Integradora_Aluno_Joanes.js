@@ -59,7 +59,8 @@ function Diaschuvosos(info){
     return TotalDias;
 }
 
-//função para ordenar os meses
+//função para ordenar os meses. A variável AUX vai armazenando a posição de cada mês, ao passar pelo loop do 2° FOR e vai comparando
+//o que for maior, a variavel AUX que vai trocando a posição a cada condição IF, e ordenando do menor para o maior
 function OrdemMes(info){
     var aux = 0;
         for (var y=0; y<info.length-1; y++){
