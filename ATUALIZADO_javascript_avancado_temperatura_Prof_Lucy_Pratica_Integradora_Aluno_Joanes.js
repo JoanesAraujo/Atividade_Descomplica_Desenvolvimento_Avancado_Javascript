@@ -74,6 +74,15 @@ function OrdemMes(info){
         return info;
 }
 
+// Calcular media das temperaturas MAX 
+function ArrayAvg(info) {
+    var i = 0, soma = 0, ArrayLen = info.length;
+    while (i < ArrayLen) {
+        soma = soma + info[i++].tmax;
+}
+    return soma / ArrayLen;
+}
+
 //Array vazio para pegar 
 var info = [];
 
@@ -81,15 +90,16 @@ var info = [];
 // console.log que exibe para o usuário na tela
 console.log('\n\nEstação Metereológica: \n', Input(info));
 console.log('\nMédia de meses: \n', Mediameses(info));
-console.log('A qtd de dias que são chovosos são: \n', Diaschuvosos(info));
+console.log('A qtd de dias que são chuvosos são: \n', Diaschuvosos(info));
 console.log('A ordem dos meses são: \n', OrdemMes(info));
+console.log('\nA média das temperaturas MÁXIMA são: \n', ArrayAvg(info));
 
 
 
 /* __*__ RESULTADO EXIBIDO AO USUÁRIO __*__
 
 
-Info: Start process (18:11:58)
+Info: Start process (18:51:25)
 
 
 Estação Metereológica: 
@@ -108,7 +118,7 @@ Estação Metereológica:
 
 Média de meses: 
  6.5
-A qtd de dias que são chovosos são: 
+A qtd de dias que são chuvosos são: 
  6
 A ordem dos meses são: 
  [
@@ -123,6 +133,10 @@ A ordem dos meses são:
   InfoTemp { dia: 18, mes: 11, tmax: 33.8, tmin: -2, choveu: true },
   InfoTemp { dia: 2, mes: 12, tmax: 29.1, tmin: 3, choveu: false }
 ]
-Info: End process (18:11:58)
+
+A média das temperaturas MÁXIMA são: 
+ 30.640000000000004
+Info: End process (18:51:25)
+
 
 */
