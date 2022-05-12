@@ -56,3 +56,23 @@ console.log('A média da temperatura MIN: ', ArrayAvg(Tmin),'\n');
 // A Ordenação da temperatura MAX
 console.log('A ordem das temperaturas MAXIMA: ',Tmax.sort(),'\n');
 
+
+/*
+
+ -*- Resultado da consulta atalho: (f8) -*-
+
+Info: Start process (21:49:41)
+
+Quantidade de dias que choveram:  5 
+
+A média da temperatura MAX:  32.6 
+
+A média da temperatura MIN:  7.8 
+
+A ordem das temperaturas MAXIMA:  [
+  22, 23, 24, 27, 32,
+  33, 36, 39, 42, 48
+] 
+
+Info: End process (21:49:42)
+*/
